@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Conway's Game of life</title>
+    <script type="text/javascript" src="./gameoflife.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <h2>Conway's Game of Life</h2>
+    <div>
+      <canvas id="canv" width="600" height="600"></canvas>
+    </div>
+    <label for="fps">FPS</label>
+    <input type="number" id="fps" value="10">
+    <label for="size">Size</label>
+    <input type="number" id="size" value="100">
+    <button type="button" id="playbutton">Pause</button>
+    <button type="button" id="resetbutton">Reset</button>
+    <button type="button" id="stepbutton">Step</button>
+  </body>
+</html>
