@@ -9,3 +9,5 @@ Each square operates under a few basic rules:
 * Living cells stay that way with 2 or 3 neighbors.
 
 The result is a sort of simulation. You can watch populations grow and die. You can see stable populations develop that never change, cycle back and forth, or glide across the screen. If you're lucky, you'll see stable patterns that travel and create as they go.
+
+Feel free to change the grid size, speed, or reset at any time. You can also step through one frame at a time if you're so inclined.
